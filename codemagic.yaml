@@ -8,7 +8,8 @@ workflows:
           XCODE_WORKSPACE: "345NarratopiaReaderSuite.xcworkspace"
           XCODE_SCHEME: "345NarratopiaReaderSuite"
           BUNDLE_ID: "com.lum.n6rr3t0p17r35d3rs81t3"
-          APP_STORE_APP_ID: 6756367614
+          EXTENSION_BUNDLE_ID: "com.lum.n6rr3t0p17r35d3rs81t3.NotificationServiceExtension"
+          APP_STORE_APP_ID: 6809445695
         xcode: latest
         cocoapods: 1.14.2
       scripts:
@@ -24,6 +25,7 @@ workflows:
         - name: Fetch signing files
           script: |
             app-store-connect fetch-signing-files $BUNDLE_ID --type IOS_APP_STORE --create
+            app-store-connect fetch-signing-files $EXTENSION_BUNDLE_ID --type IOS_APP_STORE --create
         - name: Use system default keychain
           script: |
             keychain add-certificates
@@ -43,7 +45,7 @@ workflows:
         - build/ios/ipa/*.ipa
         - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
       publishing:
-        app_store_connect:   # https://docs.codemagic.io/publishing-yaml/distribution
+        app_store_connect:
             api_key: $APP_STORE_CONNECT_PRIVATE_KEY
             key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER
             issuer_id: $APP_STORE_CONNECT_ISSUER_ID

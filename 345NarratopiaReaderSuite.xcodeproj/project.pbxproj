@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0082F630B8283E9BE81D3D91 /* NotificationPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E897298B71CDEEB7F32191 /* NotificationPermissionManager.swift */; };
+		02E149E12CE553E596AD66A5 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 4C3C33059B5E891A3DDFD79F /* AppsFlyerLib-Static */; };
 		04824EF5FD5419E2EE61177C /* DeskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF6A1AB650EFDF45A95FBB6 /* DeskStore.swift */; };
+		05F36DAA15BF6D9CB1D8AD10 /* NotificationPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC561A2C64C2784B4DCF1D /* NotificationPermissionView.swift */; };
+		05FB968D50D593EFC9282847 /* NotificationPermissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBA4DB15E08AB04E8F12BB6 /* NotificationPermissionViewController.swift */; };
 		071DA50D9438F2FAE5CEA5DA /* BannerHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B064108AFBFDCB7EE2538FD5 /* BannerHeader.swift */; };
+		08006A01DFF213D06F87ADC2 /* NetworkAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28ACB1970B33189E2FF1736C /* NetworkAvailability.swift */; };
 		0D4ED297171FCB225BF7F96D /* BookEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D96CD0E03509D098D8A39C3 /* BookEditorView.swift */; };
 		0DF23E05A6D0FC3BDC0847DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F772B0E8423D031E69AB664 /* ContentView.swift */; };
+		17E082A62BEF6ED44A2FD00F /* NotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 23F5F4A5663B10F70843D942 /* NotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2367A93B69E6229F51B91198 /* InlineField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24E2AF75430211E0D481B38 /* InlineField.swift */; };
 		243A197BEFF9FC2A82090E97 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E3D74EE5763A6BF124292556 /* PrivacyInfo.xcprivacy */; };
 		2658F2106DCDC4109CD6780E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE01ADE96D95F477A07CED5 /* Theme.swift */; };
@@ -18,6 +24,7 @@
 		280EEB661136B4013AFBA3A3 /* ReadingCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2EE6661D662D25645FE776 /* ReadingCanvas.swift */; };
 		2C11FD8AD54C006DB97F81E6 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F56AE3A6F9D53D92D8486E /* Palette.swift */; };
 		2C5CCDC7A6057A3BC2AE8989 /* ResetSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10A2517E68478225289D5DC /* ResetSignal.swift */; };
+		307B3DB730665F9A000B3BE9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 307B3DB630665F9A000B3BE9 /* GoogleService-Info.plist */; };
 		3081C701BA2E76FE6E1E6240 /* StorageKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E04CC568F9513FC7FE9BD /* StorageKeys.swift */; };
 		35826A5C572941C278AC4A6A /* NoteLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4227AE389A0F51A0B41CD3 /* NoteLink.swift */; };
 		38CF6A545280867A35E1BB13 /* IndexCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B8BF01914D526FE91AE2E3 /* IndexCard.swift */; };
@@ -26,10 +33,15 @@
 		4567F027151B384E4A5D2CD5 /* ThemeEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CD88A3482471E64816122A /* ThemeEditorView.swift */; };
 		4588B5C389B09784079C734F /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436D90F58E0F1588A225CDF8 /* BookDetailView.swift */; };
 		4CDA65856556DE117DCFA3AB /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D584FE092A7086E48223DE1 /* NotesView.swift */; };
+		52B1EFAA730B71708E401CF8 /* ConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0FFC162392C81E89A3A1BD /* ConfigManager.swift */; };
 		53A54300D3E563AFAEF683AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EACCEB476E14497B430125E /* Main.storyboard */; };
 		5CA7CED496ED6864ECB2195F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1EA2A0998DD65083C57EB59 /* Assets.xcassets */; };
+		63CCE38259A9602F1D5C15A7 /* Pods_345NarratopiaReaderSuite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C1CC42CA92383779B37916 /* Pods_345NarratopiaReaderSuite.framework */; };
+		67177150044EE53760750017 /* PushNotificationURLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82242F512A8E132C2CBA09F1 /* PushNotificationURLRouter.swift */; };
 		6CA4B6CBCF0DF67BB0725213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A32593F5E5D1B6D5BA232D /* AppDelegate.swift */; };
 		7A1B1B658156684078649420 /* ScholarType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2B465C43DBF3257BAC54D2 /* ScholarType.swift */; };
+		86EAAA67ECE6E69C9EB36E39 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67A606F01C5BDD2F5780A91 /* LoadingViewController.swift */; };
+		88D5D884F7586C6A50EE6AFC /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF274E950997F2923FA5CDB /* NotificationService.swift */; };
 		89C9FA043E64DA0B935EA993 /* Concept.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20660D54E2F78FC3912821B /* Concept.swift */; };
 		8A0E1E82481597E32260075A /* DefaultsBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BBD10ED66A154D6689CD3B /* DefaultsBox.swift */; };
 		95EECF5D9AE2272FDEEC2698 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2AB1D7449691425AE54E43 /* SettingsView.swift */; };
@@ -38,45 +50,94 @@
 		9B411B8433F5E2A11B2FE006 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAF85255BBC4FA2CF1B4C19 /* SceneDelegate.swift */; };
 		A0C3F903664914A0A99D1990 /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D878C3D05DCE8101371779E /* AppLinks.swift */; };
 		A17FAE5836838E1ACE412FA9 /* ThemeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC35EB7657EF584D28760C1 /* ThemeMenu.swift */; };
+		A319C2EA62A1699ED80CB122 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 50674255E501F3EB2E56EEC4 /* FirebaseMessaging */; };
+		A77A7C36DBB700D1F02BA2DC /* UserAgentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19C077AB2C877EE11D897F7 /* UserAgentBuilder.swift */; };
 		AE4F9B2D5C38607F1B295DA3 /* LedgerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3E8A1C4B275F6E0A184C92 /* LedgerView.swift */; };
 		C2D9309575AFF48AD1CC6B28 /* TitleGuard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D5C5B9B314FB9F0C53543A /* TitleGuard.swift */; };
+		C707881A879FE6E372437972 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = B4C694DA489689ABE4504551 /* FirebaseMessaging */; };
 		C905A7984C6C06B9C8E58C62 /* NoteEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8E8004FE9862FC77D9EA1 /* NoteEditorView.swift */; };
+		CAC18A0CB2DEC361263CC9BE /* WebviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECAAFDEC48BB5F151B9BF24 /* WebviewVC.swift */; };
 		D2472F8F636D8E2B7F01FBBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56ABF16589909C2302E9E9ED /* LaunchScreen.storyboard */; };
+		D82A16CCA77243E847F69B81 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9964CF6F70F66D0EA51E5A22 /* LoadingView.swift */; };
 		DB7D285FBE19BAEBC14E4676 /* ChapterPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39EEFE7432BC5A98183D3A2 /* ChapterPanel.swift */; };
+		DFDCB5B9BD431ADA60B4FB16 /* LoadingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586D43F7A0545D260A5C4A15 /* LoadingManager.swift */; };
 		DFE63C9E7E8A920BC7F83C12 /* ReadingNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D4A6C547506B187ADF2ECC /* ReadingNote.swift */; };
 		E0F17D8F0A4560807678ED6D /* ConceptEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D75ECB5CA7B9C6680DDEC6 /* ConceptEditorView.swift */; };
+		E204DB01BBEFF273647F385D /* LoadingThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463E94BAEB684A267A000C10 /* LoadingThemeColors.swift */; };
+		E71DBE553B494C19C18815CE /* AppsFlyerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320D4B8245AC8B286CF166B3 /* AppsFlyerManager.swift */; };
+		EA78BB3F5562385B9E1DFE7B /* NoInternetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074BC9BA99F068A4D0C6EE6 /* NoInternetView.swift */; };
 		ED85498081E15656DBBFEE5F /* EmptyPrompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866F8C308C2C8506541D0022 /* EmptyPrompt.swift */; };
 		FC5FFA27B79FB72CB25A0CA2 /* DeskButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE164D77885D5BE3B63F53E /* DeskButton.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F174E5399A811DC0BF717812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86BBED62383833C5FEDDF656 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C06049D0E7EE6CFF3193486;
+			remoteInfo = NotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		38313946E1FBCCBC60A6A3DA /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				17E082A62BEF6ED44A2FD00F /* NotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		03C1CC42CA92383779B37916 /* Pods_345NarratopiaReaderSuite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_345NarratopiaReaderSuite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		046E04CC568F9513FC7FE9BD /* StorageKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageKeys.swift; sourceTree = "<group>"; };
+		0CC802CE201AC9B522E95901 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		1DC6450707289191C4208EA5 /* BookItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookItem.swift; sourceTree = "<group>"; };
+		23F5F4A5663B10F70843D942 /* NotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A3E73589BF3CF3E66FFF7E /* ConceptMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConceptMapView.swift; sourceTree = "<group>"; };
+		28ACB1970B33189E2FF1736C /* NetworkAvailability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkAvailability.swift; sourceTree = "<group>"; };
 		2C2AB1D7449691425AE54E43 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		2D878C3D05DCE8101371779E /* AppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
+		307B3DB630665F9A000B3BE9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		320D4B8245AC8B286CF166B3 /* AppsFlyerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppsFlyerManager.swift; sourceTree = "<group>"; };
+		37E897298B71CDEEB7F32191 /* NotificationPermissionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationPermissionManager.swift; sourceTree = "<group>"; };
 		3AE164D77885D5BE3B63F53E /* DeskButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeskButton.swift; sourceTree = "<group>"; };
+		3CDCAEC7FFC3FAFAE8E2C421 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E2EE6661D662D25645FE776 /* ReadingCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingCanvas.swift; sourceTree = "<group>"; };
 		436D90F58E0F1588A225CDF8 /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
+		463E94BAEB684A267A000C10 /* LoadingThemeColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoadingThemeColors.swift; sourceTree = "<group>"; };
 		4B2B465C43DBF3257BAC54D2 /* ScholarType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScholarType.swift; sourceTree = "<group>"; };
 		4CC35EB7657EF584D28760C1 /* ThemeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeMenu.swift; sourceTree = "<group>"; };
 		50D5C5B9B314FB9F0C53543A /* TitleGuard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleGuard.swift; sourceTree = "<group>"; };
 		53B8BA752CFE6A4B17DD7A04 /* 345NarratopiaReaderSuite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 345NarratopiaReaderSuite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56ABF16589909C2302E9E9ED /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56CD88A3482471E64816122A /* ThemeEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeEditorView.swift; sourceTree = "<group>"; };
+		586D43F7A0545D260A5C4A15 /* LoadingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoadingManager.swift; sourceTree = "<group>"; };
 		5DF6A1AB650EFDF45A95FBB6 /* DeskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeskStore.swift; sourceTree = "<group>"; };
+		6CBA4DB15E08AB04E8F12BB6 /* NotificationPermissionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationPermissionViewController.swift; sourceTree = "<group>"; };
 		6D584FE092A7086E48223DE1 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
 		73DC9617CBBF89387ABB4339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C1E0970B7BA898563C010DA /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		7EACCEB476E14497B430125E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7ECAAFDEC48BB5F151B9BF24 /* WebviewVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WebviewVC.swift; sourceTree = "<group>"; };
 		7F772B0E8423D031E69AB664 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		82242F512A8E132C2CBA09F1 /* PushNotificationURLRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PushNotificationURLRouter.swift; sourceTree = "<group>"; };
 		83B8BF01914D526FE91AE2E3 /* IndexCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexCard.swift; sourceTree = "<group>"; };
 		83D4A6C547506B187ADF2ECC /* ReadingNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingNote.swift; sourceTree = "<group>"; };
 		866F8C308C2C8506541D0022 /* EmptyPrompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyPrompt.swift; sourceTree = "<group>"; };
+		8677F5C9ECA848870B078188 /* Pods-345NarratopiaReaderSuite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-345NarratopiaReaderSuite.debug.xcconfig"; path = "Target Support Files/Pods-345NarratopiaReaderSuite/Pods-345NarratopiaReaderSuite.debug.xcconfig"; sourceTree = "<group>"; };
 		8D96CD0E03509D098D8A39C3 /* BookEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookEditorView.swift; sourceTree = "<group>"; };
 		9173DBE4D7AC9309EE438035 /* HomeHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHubView.swift; sourceTree = "<group>"; };
 		91F56AE3A6F9D53D92D8486E /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		94CB9DCC037F800EAC448500 /* Pods-345NarratopiaReaderSuite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-345NarratopiaReaderSuite.release.xcconfig"; path = "Target Support Files/Pods-345NarratopiaReaderSuite/Pods-345NarratopiaReaderSuite.release.xcconfig"; sourceTree = "<group>"; };
 		97BBD10ED66A154D6689CD3B /* DefaultsBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultsBox.swift; sourceTree = "<group>"; };
+		9964CF6F70F66D0EA51E5A22 /* LoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		9D3E8A1C4B275F6E0A184C92 /* LedgerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedgerView.swift; sourceTree = "<group>"; };
 		ACC8E8004FE9862FC77D9EA1 /* NoteEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditorView.swift; sourceTree = "<group>"; };
 		B064108AFBFDCB7EE2538FD5 /* BannerHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerHeader.swift; sourceTree = "<group>"; };
@@ -84,14 +145,21 @@
 		B3A32593F5E5D1B6D5BA232D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9D75ECB5CA7B9C6680DDEC6 /* ConceptEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConceptEditorView.swift; sourceTree = "<group>"; };
 		BC4227AE389A0F51A0B41CD3 /* NoteLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteLink.swift; sourceTree = "<group>"; };
+		C19C077AB2C877EE11D897F7 /* UserAgentBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserAgentBuilder.swift; sourceTree = "<group>"; };
 		C8E24B8BE9CD478317921A73 /* LinkEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkEditorView.swift; sourceTree = "<group>"; };
+		CD0FFC162392C81E89A3A1BD /* ConfigManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConfigManager.swift; sourceTree = "<group>"; };
+		D074BC9BA99F068A4D0C6EE6 /* NoInternetView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NoInternetView.swift; sourceTree = "<group>"; };
 		D10A2517E68478225289D5DC /* ResetSignal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetSignal.swift; sourceTree = "<group>"; };
 		D1EA2A0998DD65083C57EB59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D24E2AF75430211E0D481B38 /* InlineField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineField.swift; sourceTree = "<group>"; };
+		DCF274E950997F2923FA5CDB /* NotificationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		DDAF85255BBC4FA2CF1B4C19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E0A631B1442B6DF5443187DF /* 345NarratopiaReaderSuite.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = 345NarratopiaReaderSuite.entitlements; sourceTree = "<group>"; };
 		E3D74EE5763A6BF124292556 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		EBE01ADE96D95F477A07CED5 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		F20660D54E2F78FC3912821B /* Concept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concept.swift; sourceTree = "<group>"; };
+		F67A606F01C5BDD2F5780A91 /* LoadingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		FDDC561A2C64C2784B4DCF1D /* NotificationPermissionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationPermissionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +167,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A319C2EA62A1699ED80CB122 /* FirebaseMessaging in Frameworks */,
+				02E149E12CE553E596AD66A5 /* AppsFlyerLib-Static in Frameworks */,
+				63CCE38259A9602F1D5C15A7 /* Pods_345NarratopiaReaderSuite.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5EBCD664DFFD71580B6018A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C707881A879FE6E372437972 /* FirebaseMessaging in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +224,9 @@
 			children = (
 				961EE690595046023C9F98B8 /* 345NarratopiaReaderSuite */,
 				D8C57E1520B1FB4DE04F43E3 /* Products */,
+				A8A7DC3D44897CA09EC1738D /* Frameworks */,
+				4B1D76448D2E90D40319DAD8 /* NotificationServiceExtension */,
+				F26BCCAF1449026C891538D9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,6 +248,36 @@
 				56CD88A3482471E64816122A /* ThemeEditorView.swift */,
 			);
 			path = Notes;
+			sourceTree = "<group>";
+		};
+		45D5CB99C874E155710B0C51 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				320D4B8245AC8B286CF166B3 /* AppsFlyerManager.swift */,
+				CD0FFC162392C81E89A3A1BD /* ConfigManager.swift */,
+				586D43F7A0545D260A5C4A15 /* LoadingManager.swift */,
+				463E94BAEB684A267A000C10 /* LoadingThemeColors.swift */,
+				9964CF6F70F66D0EA51E5A22 /* LoadingView.swift */,
+				F67A606F01C5BDD2F5780A91 /* LoadingViewController.swift */,
+				28ACB1970B33189E2FF1736C /* NetworkAvailability.swift */,
+				D074BC9BA99F068A4D0C6EE6 /* NoInternetView.swift */,
+				37E897298B71CDEEB7F32191 /* NotificationPermissionManager.swift */,
+				FDDC561A2C64C2784B4DCF1D /* NotificationPermissionView.swift */,
+				6CBA4DB15E08AB04E8F12BB6 /* NotificationPermissionViewController.swift */,
+				82242F512A8E132C2CBA09F1 /* PushNotificationURLRouter.swift */,
+				C19C077AB2C877EE11D897F7 /* UserAgentBuilder.swift */,
+				7ECAAFDEC48BB5F151B9BF24 /* WebviewVC.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		4B1D76448D2E90D40319DAD8 /* NotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				DCF274E950997F2923FA5CDB /* NotificationService.swift */,
+				3CDCAEC7FFC3FAFAE8E2C421 /* Info.plist */,
+			);
+			path = NotificationServiceExtension;
 			sourceTree = "<group>";
 		};
 		525754C00FCA8E10701EB10C /* Views */ = {
@@ -225,8 +337,20 @@
 				B6C983E76838AF9C73D28830 /* Theme */,
 				F0F81FE5E3DD578B5C0EE144 /* Utilities */,
 				525754C00FCA8E10701EB10C /* Views */,
+				45D5CB99C874E155710B0C51 /* Loading */,
+				E0A631B1442B6DF5443187DF /* 345NarratopiaReaderSuite.entitlements */,
+				307B3DB630665F9A000B3BE9 /* GoogleService-Info.plist */,
 			);
 			path = 345NarratopiaReaderSuite;
+			sourceTree = "<group>";
+		};
+		A8A7DC3D44897CA09EC1738D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1CF7BB61F83C83284B78A4F /* iOS */,
+				03C1CC42CA92383779B37916 /* Pods_345NarratopiaReaderSuite.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B6C983E76838AF9C73D28830 /* Theme */ = {
@@ -239,10 +363,19 @@
 			path = Theme;
 			sourceTree = "<group>";
 		};
+		D1CF7BB61F83C83284B78A4F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0CC802CE201AC9B522E95901 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		D8C57E1520B1FB4DE04F43E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				53B8BA752CFE6A4B17DD7A04 /* 345NarratopiaReaderSuite.app */,
+				23F5F4A5663B10F70843D942 /* NotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -273,6 +406,16 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		F26BCCAF1449026C891538D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8677F5C9ECA848870B078188 /* Pods-345NarratopiaReaderSuite.debug.xcconfig */,
+				94CB9DCC037F800EAC448500 /* Pods-345NarratopiaReaderSuite.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -280,18 +423,45 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A22E865665D8CC1AC5499A1 /* Build configuration list for PBXNativeTarget "345NarratopiaReaderSuite" */;
 			buildPhases = (
+				B63CF69B57F06037EE9A4D56 /* [CP] Check Pods Manifest.lock */,
 				DC2DFFCF7766B3F4EBDCCF67 /* Sources */,
 				5C2D7D5C15068DECEDBE0314 /* Frameworks */,
 				EF81255936BC336481E128FD /* Resources */,
+				38313946E1FBCCBC60A6A3DA /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12840B89854573F18C84F694 /* PBXTargetDependency */,
+			);
+			name = 345NarratopiaReaderSuite;
+			packageProductDependencies = (
+				50674255E501F3EB2E56EEC4 /* FirebaseMessaging */,
+				4C3C33059B5E891A3DDFD79F /* AppsFlyerLib-Static */,
+			);
+			productName = 345NarratopiaReaderSuite;
+			productReference = 53B8BA752CFE6A4B17DD7A04 /* 345NarratopiaReaderSuite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C06049D0E7EE6CFF3193486 /* NotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2589AB0BC3D85C7F00502256 /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */;
+			buildPhases = (
+				1DE92903605E083F0771DB86 /* Sources */,
+				A5EBCD664DFFD71580B6018A /* Frameworks */,
+				1954335C8EFEACB26E23BCF1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = 345NarratopiaReaderSuite;
-			productName = 345NarratopiaReaderSuite;
-			productReference = 53B8BA752CFE6A4B17DD7A04 /* 345NarratopiaReaderSuite.app */;
-			productType = "com.apple.product-type.application";
+			name = NotificationServiceExtension;
+			packageProductDependencies = (
+				B4C694DA489689ABE4504551 /* FirebaseMessaging */,
+			);
+			productName = NotificationServiceExtension;
+			productReference = 23F5F4A5663B10F70843D942 /* NotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -317,22 +487,35 @@
 				Base,
 			);
 			mainGroup = 2DC759001DB1761A965DB2D2;
+			packageReferences = (
+				058C56BD220AA9E689FECD3C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				9F5BDFF32BB4522A9E9377AE /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
+			);
 			productRefGroup = D8C57E1520B1FB4DE04F43E3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				13C5901690D092B974356F8F /* 345NarratopiaReaderSuite */,
+				2C06049D0E7EE6CFF3193486 /* NotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1954335C8EFEACB26E23BCF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EF81255936BC336481E128FD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D2472F8F636D8E2B7F01FBBF /* LaunchScreen.storyboard in Resources */,
 				53A54300D3E563AFAEF683AA /* Main.storyboard in Resources */,
+				307B3DB730665F9A000B3BE9 /* GoogleService-Info.plist in Resources */,
 				5CA7CED496ED6864ECB2195F /* Assets.xcassets in Resources */,
 				243A197BEFF9FC2A82090E97 /* PrivacyInfo.xcprivacy in Resources */,
 			);
@@ -340,7 +523,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B63CF69B57F06037EE9A4D56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-345NarratopiaReaderSuite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		1DE92903605E083F0771DB86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D5D884F7586C6A50EE6AFC /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DC2DFFCF7766B3F4EBDCCF67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,12 +597,68 @@
 				4567F027151B384E4A5D2CD5 /* ThemeEditorView.swift in Sources */,
 				95EECF5D9AE2272FDEEC2698 /* SettingsView.swift in Sources */,
 				AE4F9B2D5C38607F1B295DA3 /* LedgerView.swift in Sources */,
+				E71DBE553B494C19C18815CE /* AppsFlyerManager.swift in Sources */,
+				52B1EFAA730B71708E401CF8 /* ConfigManager.swift in Sources */,
+				DFDCB5B9BD431ADA60B4FB16 /* LoadingManager.swift in Sources */,
+				E204DB01BBEFF273647F385D /* LoadingThemeColors.swift in Sources */,
+				D82A16CCA77243E847F69B81 /* LoadingView.swift in Sources */,
+				86EAAA67ECE6E69C9EB36E39 /* LoadingViewController.swift in Sources */,
+				08006A01DFF213D06F87ADC2 /* NetworkAvailability.swift in Sources */,
+				EA78BB3F5562385B9E1DFE7B /* NoInternetView.swift in Sources */,
+				0082F630B8283E9BE81D3D91 /* NotificationPermissionManager.swift in Sources */,
+				05F36DAA15BF6D9CB1D8AD10 /* NotificationPermissionView.swift in Sources */,
+				05FB968D50D593EFC9282847 /* NotificationPermissionViewController.swift in Sources */,
+				67177150044EE53760750017 /* PushNotificationURLRouter.swift in Sources */,
+				A77A7C36DBB700D1F02BA2DC /* UserAgentBuilder.swift in Sources */,
+				CAC18A0CB2DEC361263CC9BE /* WebviewVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		12840B89854573F18C84F694 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NotificationServiceExtension;
+			target = 2C06049D0E7EE6CFF3193486 /* NotificationServiceExtension */;
+			targetProxy = F174E5399A811DC0BF717812 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		2911ABEE596119F86057B1AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_DEBUG_DYLIB = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lum.n6rr3t0p17r35d3rs81t3.NotificationServiceExtension;
+				PRODUCT_NAME = NotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
 		39DB7AD80B678EF045D3CF60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -494,16 +766,56 @@
 			};
 			name = Release;
 		};
+		789CEE85F4F80C0740A9DCAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_DEBUG_DYLIB = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lum.n6rr3t0p17r35d3rs81t3.NotificationServiceExtension;
+				PRODUCT_NAME = NotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		830F7872F39728F290B8886F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8677F5C9ECA848870B078188 /* Pods-345NarratopiaReaderSuite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 345NarratopiaReaderSuite/345NarratopiaReaderSuite.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_DEBUG_DYLIB = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 345NarratopiaReaderSuite/App/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Narratopia Reader Suite";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera to let you capture photos and videos inside web content.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We use the microphone to record audio for camera and web content.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use this data to measure ad campaigns and improve your experience in the app.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
@@ -512,7 +824,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lum.n6rr3t0p17r35d3rs81t3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -527,14 +843,20 @@
 		};
 		DF9846D1E81E268B9430D9CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94CB9DCC037F800EAC448500 /* Pods-345NarratopiaReaderSuite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 345NarratopiaReaderSuite/345NarratopiaReaderSuite.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_DEBUG_DYLIB = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 345NarratopiaReaderSuite/App/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Narratopia Reader Suite";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera to let you capture photos and videos inside web content.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We use the microphone to record audio for camera and web content.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use this data to measure ad campaigns and improve your experience in the app.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
@@ -543,7 +865,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lum.n6rr3t0p17r35d3rs81t3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -559,6 +885,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2589AB0BC3D85C7F00502256 /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789CEE85F4F80C0740A9DCAA /* Release */,
+				2911ABEE596119F86057B1AD /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4A22E865665D8CC1AC5499A1 /* Build configuration list for PBXNativeTarget "345NarratopiaReaderSuite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -578,6 +913,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		058C56BD220AA9E689FECD3C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+		9F5BDFF32BB4522A9E9377AE /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4C3C33059B5E891A3DDFD79F /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F5BDFF32BB4522A9E9377AE /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+		50674255E501F3EB2E56EEC4 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 058C56BD220AA9E689FECD3C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		B4C694DA489689ABE4504551 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 058C56BD220AA9E689FECD3C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 86BBED62383833C5FEDDF656 /* Project object */;
 }
