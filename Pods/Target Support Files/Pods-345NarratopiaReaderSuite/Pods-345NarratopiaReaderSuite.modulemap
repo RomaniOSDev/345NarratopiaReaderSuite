@@ -1,6 +1,0 @@
-framework module Pods_345NarratopiaReaderSuite {
-  umbrella header "Pods-345NarratopiaReaderSuite-umbrella.h"
-
-  export *
-  module * { export * }
-}

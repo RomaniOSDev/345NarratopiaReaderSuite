@@ -5,19 +5,33 @@ struct NotificationPermissionView: View {
     var onDecline: () -> Void
 
     var body: some View {
-        GeometryReader { geometry in
-            let isPortrait = geometry.size.height >= geometry.size.width
-            ZStack {
-                Color.appBackground
-                    .ignoresSafeArea()
+        ZStack {
+            deskBackground
 
+            VStack(spacing: 20) {
+                Spacer(minLength: 0)
+                iconSection
+                textSection
+                buttonsSection
+                Spacer(minLength: 0)
+            }
+            .padding(.horizontal, 24)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .ignoresSafeArea()
+        .preferredColorScheme(.dark)
+    }
+
+    private var deskBackground: some View {
+        Color.appBackground
+            .overlay {
                 Image("BgLibrary")
                     .resizable()
                     .scaledToFill()
                     .opacity(0.22)
-                    .ignoresSafeArea()
                     .allowsHitTesting(false)
-
+            }
+            .overlay {
                 LinearGradient(
                     colors: [
                         Color.appBackground.opacity(0.7),
@@ -27,29 +41,9 @@ struct NotificationPermissionView: View {
                     startPoint: .top,
                     endPoint: .bottom
                 )
-                .ignoresSafeArea()
-
-                ScrollView(showsIndicators: false) {
-                    VStack(spacing: 0) {
-                        if isPortrait {
-                            Spacer(minLength: geometry.size.height * 0.28)
-                        } else {
-                            Spacer(minLength: 20)
-                        }
-                        iconSection
-                        Spacer(minLength: 22)
-                        textSection
-                        Spacer(minLength: 28)
-                        buttonsSection
-                        Spacer(minLength: isPortrait ? 20 : 24)
-                    }
-                    .padding(.horizontal, 24)
-                    .frame(maxWidth: .infinity)
-                    .frame(minHeight: geometry.size.height)
-                }
             }
-        }
-        .preferredColorScheme(.dark)
+            .clipped()
+            .ignoresSafeArea()
     }
 
     private var iconSection: some View {
@@ -80,11 +74,14 @@ struct NotificationPermissionView: View {
                 .font(.system(size: 22, weight: .semibold, design: .rounded))
                 .foregroundColor(.appPrimary)
                 .multilineTextAlignment(.center)
+                .fixedSize(horizontal: false, vertical: true)
             Text("Stay updated with important news and bonus. You can change this later in Settings.")
                 .font(.system(size: 15, weight: .regular, design: .rounded))
                 .foregroundColor(.appPrimary.opacity(0.72))
                 .multilineTextAlignment(.center)
+                .fixedSize(horizontal: false, vertical: true)
         }
+        .frame(maxWidth: .infinity)
     }
 
     private var buttonsSection: some View {
@@ -115,9 +112,10 @@ struct NotificationPermissionView: View {
             }
             .buttonStyle(.plain)
         }
+        .frame(maxWidth: .infinity)
     }
 }
 
-#Preview {
+#Preview("Notification Permission") {
     NotificationPermissionView(onAccept: {}, onDecline: {})
 }

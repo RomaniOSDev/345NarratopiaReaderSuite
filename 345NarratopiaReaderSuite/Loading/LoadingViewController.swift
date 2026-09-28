@@ -28,6 +28,8 @@ final class LoadingViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = UIColor(named: "AppBackground") ?? .black
+        configureHosting(loadingHosting)
         addChild(loadingHosting)
         view.addSubview(loadingHosting.view)
         loadingHosting.view.translatesAutoresizingMaskIntoConstraints = false
@@ -39,6 +41,15 @@ final class LoadingViewController: UIViewController {
         ])
         loadingHosting.didMove(toParent: self)
         subscribeToConversionDataNotifications()
+    }
+
+    private func configureHosting(_ hosting: UIHostingController<AnyView>) {
+        hosting.view.backgroundColor = UIColor(named: "AppBackground") ?? .black
+        hosting.view.isOpaque = true
+        hosting.view.clipsToBounds = true
+        if #available(iOS 16.4, *) {
+            hosting.safeAreaRegions = []
+        }
     }
 
     override func viewDidAppear(_ animated: Bool) {

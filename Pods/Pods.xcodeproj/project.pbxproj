@@ -3,50 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		592A573AC694428ABB8F4D931472D67B /* Pods-345NarratopiaReaderSuite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 621B0F753AB6AFDF913CBBB55545394A /* Pods-345NarratopiaReaderSuite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7DCB737C993A30E80AD5D0F630250EF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		8A4109E10D674C33DECA778914665017 /* Pods-345NarratopiaReaderSuite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B74FA13AC5114D7DA306BC8BC2C46E7 /* Pods-345NarratopiaReaderSuite-dummy.m */; };
+		3A1A8EECD8E45348356A8EFBA2E3F708 /* Pods-345NarratopiaReaderSuite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0CFA75B737B3F68031FD569ECA2909 /* Pods-345NarratopiaReaderSuite-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5B74FA13AC5114D7DA306BC8BC2C46E7 /* Pods-345NarratopiaReaderSuite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-345NarratopiaReaderSuite-dummy.m"; sourceTree = "<group>"; };
-		621B0F753AB6AFDF913CBBB55545394A /* Pods-345NarratopiaReaderSuite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-345NarratopiaReaderSuite-umbrella.h"; sourceTree = "<group>"; };
-		6E2BFE230FA074F82A0E5F4CD430B147 /* Pods-345NarratopiaReaderSuite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-345NarratopiaReaderSuite.modulemap"; sourceTree = "<group>"; };
-		96172D76F61CC847310564138CF2A4E9 /* Pods-345NarratopiaReaderSuite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-345NarratopiaReaderSuite.release.xcconfig"; sourceTree = "<group>"; };
-		98A1229C8FC7EF34DDCF32C672DC8D83 /* Pods-345NarratopiaReaderSuite-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-345NarratopiaReaderSuite-acknowledgements.plist"; sourceTree = "<group>"; };
+		833347DCFD0B05262C0107F8342ADE8D /* Pods-345NarratopiaReaderSuite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-345NarratopiaReaderSuite.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AE919AAAA91E93CF479190FBC6A38EA0 /* Pods-345NarratopiaReaderSuite */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-345NarratopiaReaderSuite"; path = Pods_345NarratopiaReaderSuite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6FE4EA3EA875E8FABC61DADB704FA94 /* Pods-345NarratopiaReaderSuite-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-345NarratopiaReaderSuite-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C7FC1FBCD13152AE5DDE997C590BF102 /* Pods-345NarratopiaReaderSuite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-345NarratopiaReaderSuite.debug.xcconfig"; sourceTree = "<group>"; };
-		E6927808923F0334D32084F58410878B /* Pods-345NarratopiaReaderSuite-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-345NarratopiaReaderSuite-Info.plist"; sourceTree = "<group>"; };
+		AE919AAAA91E93CF479190FBC6A38EA0 /* Pods-345NarratopiaReaderSuite */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-345NarratopiaReaderSuite"; path = "libPods-345NarratopiaReaderSuite.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DA45EB8E1B45269A6AB5D835FCC70A /* Pods-345NarratopiaReaderSuite-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-345NarratopiaReaderSuite-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB2ED4C8CAF657DE792EDFBE35A2510B /* Pods-345NarratopiaReaderSuite-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-345NarratopiaReaderSuite-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DCE95C355F4CCF2B0C322202F216C8B1 /* Pods-345NarratopiaReaderSuite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-345NarratopiaReaderSuite.release.xcconfig"; sourceTree = "<group>"; };
+		DE0CFA75B737B3F68031FD569ECA2909 /* Pods-345NarratopiaReaderSuite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-345NarratopiaReaderSuite-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		05B77A0B8EF5DECE2A69DFECFF74854D /* Frameworks */ = {
+		6F6DC474A1233D756532D64E8F395715 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DCB737C993A30E80AD5D0F630250EF5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		10FF2774CC1123CB9DE19607A204D11D /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9E465D54BE54036E521EBB1A3F641027 /* Pods-345NarratopiaReaderSuite */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		23B035273D2F8F875E9A227EF6D7D2D7 /* Products */ = {
+		3116B843A5F24815D3E330189D72BA23 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				AE919AAAA91E93CF479190FBC6A38EA0 /* Pods-345NarratopiaReaderSuite */,
@@ -54,56 +39,51 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9E465D54BE54036E521EBB1A3F641027 /* Pods-345NarratopiaReaderSuite */ = {
+		BE1321FEB7618C5EBC2D4E0DBFFA004F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6E2BFE230FA074F82A0E5F4CD430B147 /* Pods-345NarratopiaReaderSuite.modulemap */,
-				C6FE4EA3EA875E8FABC61DADB704FA94 /* Pods-345NarratopiaReaderSuite-acknowledgements.markdown */,
-				98A1229C8FC7EF34DDCF32C672DC8D83 /* Pods-345NarratopiaReaderSuite-acknowledgements.plist */,
-				5B74FA13AC5114D7DA306BC8BC2C46E7 /* Pods-345NarratopiaReaderSuite-dummy.m */,
-				E6927808923F0334D32084F58410878B /* Pods-345NarratopiaReaderSuite-Info.plist */,
-				621B0F753AB6AFDF913CBBB55545394A /* Pods-345NarratopiaReaderSuite-umbrella.h */,
-				C7FC1FBCD13152AE5DDE997C590BF102 /* Pods-345NarratopiaReaderSuite.debug.xcconfig */,
-				96172D76F61CC847310564138CF2A4E9 /* Pods-345NarratopiaReaderSuite.release.xcconfig */,
+				E9B302350FDA627D4B940AC960712E59 /* Pods-345NarratopiaReaderSuite */,
 			);
-			name = "Pods-345NarratopiaReaderSuite";
-			path = "Target Support Files/Pods-345NarratopiaReaderSuite";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				23B035273D2F8F875E9A227EF6D7D2D7 /* Products */,
-				10FF2774CC1123CB9DE19607A204D11D /* Targets Support Files */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				3116B843A5F24815D3E330189D72BA23 /* Products */,
+				BE1321FEB7618C5EBC2D4E0DBFFA004F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+		E9B302350FDA627D4B940AC960712E59 /* Pods-345NarratopiaReaderSuite */ = {
 			isa = PBXGroup;
 			children = (
-				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+				BB2ED4C8CAF657DE792EDFBE35A2510B /* Pods-345NarratopiaReaderSuite-acknowledgements.markdown */,
+				B5DA45EB8E1B45269A6AB5D835FCC70A /* Pods-345NarratopiaReaderSuite-acknowledgements.plist */,
+				DE0CFA75B737B3F68031FD569ECA2909 /* Pods-345NarratopiaReaderSuite-dummy.m */,
+				833347DCFD0B05262C0107F8342ADE8D /* Pods-345NarratopiaReaderSuite.debug.xcconfig */,
+				DCE95C355F4CCF2B0C322202F216C8B1 /* Pods-345NarratopiaReaderSuite.release.xcconfig */,
 			);
-			name = iOS;
+			name = "Pods-345NarratopiaReaderSuite";
+			path = "Target Support Files/Pods-345NarratopiaReaderSuite";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0513F3747B7169BBFE1B9BDB3261A2F5 /* Headers */ = {
+		09E66D5EE48F1D2F53FF79182110E12B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				592A573AC694428ABB8F4D931472D67B /* Pods-345NarratopiaReaderSuite-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,21 +92,20 @@
 /* Begin PBXNativeTarget section */
 		2F8DC56CA66E878B4460B6F7BD696F53 /* Pods-345NarratopiaReaderSuite */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4EEA64DA9AD428B819AFC0EC486B8FA /* Build configuration list for PBXNativeTarget "Pods-345NarratopiaReaderSuite" */;
+			buildConfigurationList = 7D412929DA144988BB3FCCADF310B5A1 /* Build configuration list for PBXNativeTarget "Pods-345NarratopiaReaderSuite" */;
 			buildPhases = (
-				0513F3747B7169BBFE1B9BDB3261A2F5 /* Headers */,
-				96CD6962642E4E3F1A7223630EC62F9E /* Sources */,
-				05B77A0B8EF5DECE2A69DFECFF74854D /* Frameworks */,
-				56AF60EC2389D9FA49F0C3231B9351DC /* Resources */,
+				09E66D5EE48F1D2F53FF79182110E12B /* Headers */,
+				901199817F1DA430C5BACFB4670A3176 /* Sources */,
+				6F6DC474A1233D756532D64E8F395715 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Pods-345NarratopiaReaderSuite";
-			productName = Pods_345NarratopiaReaderSuite;
+			productName = "Pods-345NarratopiaReaderSuite";
 			productReference = AE919AAAA91E93CF479190FBC6A38EA0 /* Pods-345NarratopiaReaderSuite */;
-			productType = "com.apple.product-type.framework";
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -138,7 +117,7 @@
 				LastUpgradeCheck = 1600;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 15.0";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -148,7 +127,7 @@
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 23B035273D2F8F875E9A227EF6D7D2D7 /* Products */;
+			productRefGroup = 3116B843A5F24815D3E330189D72BA23 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -157,68 +136,18 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		56AF60EC2389D9FA49F0C3231B9351DC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		96CD6962642E4E3F1A7223630EC62F9E /* Sources */ = {
+		901199817F1DA430C5BACFB4670A3176 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A4109E10D674C33DECA778914665017 /* Pods-345NarratopiaReaderSuite-dummy.m in Sources */,
+				3A1A8EECD8E45348356A8EFBA2E3F708 /* Pods-345NarratopiaReaderSuite-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1615F090504C6CAC6628EECF0A847014 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96172D76F61CC847310564138CF2A4E9 /* Pods-345NarratopiaReaderSuite.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-345NarratopiaReaderSuite/Pods-345NarratopiaReaderSuite-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-345NarratopiaReaderSuite/Pods-345NarratopiaReaderSuite.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -281,42 +210,52 @@
 			};
 			name = Release;
 		};
-		C5E09C6BA31D07C2187E362E392FDBBB /* Debug */ = {
+		D97820C6AD33DAE522CB552C42AA3FD4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7FC1FBCD13152AE5DDE997C590BF102 /* Pods-345NarratopiaReaderSuite.debug.xcconfig */;
+			baseConfigurationReference = DCE95C355F4CCF2B0C322202F216C8B1 /* Pods-345NarratopiaReaderSuite.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-345NarratopiaReaderSuite/Pods-345NarratopiaReaderSuite-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-345NarratopiaReaderSuite/Pods-345NarratopiaReaderSuite.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA33EE297437068D3A2F906022E79CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 833347DCFD0B05262C0107F8342ADE8D /* Pods-345NarratopiaReaderSuite.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -398,11 +337,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4EEA64DA9AD428B819AFC0EC486B8FA /* Build configuration list for PBXNativeTarget "Pods-345NarratopiaReaderSuite" */ = {
+		7D412929DA144988BB3FCCADF310B5A1 /* Build configuration list for PBXNativeTarget "Pods-345NarratopiaReaderSuite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C5E09C6BA31D07C2187E362E392FDBBB /* Debug */,
-				1615F090504C6CAC6628EECF0A847014 /* Release */,
+				EA33EE297437068D3A2F906022E79CA7 /* Debug */,
+				D97820C6AD33DAE522CB552C42AA3FD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

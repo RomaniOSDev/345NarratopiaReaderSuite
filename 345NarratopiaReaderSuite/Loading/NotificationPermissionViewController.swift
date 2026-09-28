@@ -19,11 +19,20 @@ final class NotificationPermissionViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = UIColor(named: "AppBackground") ?? .black
+
         let swiftUIView = NotificationPermissionView(
             onAccept: { [weak self] in self?.handleAccept() },
             onDecline: { [weak self] in self?.handleDecline() }
         )
         let hosting = UIHostingController(rootView: swiftUIView)
+        hosting.view.backgroundColor = UIColor(named: "AppBackground") ?? .black
+        hosting.view.isOpaque = true
+        hosting.view.clipsToBounds = true
+        if #available(iOS 16.4, *) {
+            hosting.safeAreaRegions = []
+        }
+
         addChild(hosting)
         view.addSubview(hosting.view)
         hosting.view.translatesAutoresizingMaskIntoConstraints = false

@@ -4,67 +4,70 @@ struct LoadingAmbientField: View {
     @State private var drift = false
 
     var body: some View {
-        ZStack {
-            Color.appBackground
-
-            Image("BgLibrary")
-                .resizable()
-                .scaledToFill()
-                .opacity(0.28)
-                .allowsHitTesting(false)
-
-            LinearGradient(
-                colors: [
-                    Color.appBackground.opacity(0.55),
-                    Color.appSurface.opacity(0.35),
-                    Color.appBackground.opacity(0.75)
-                ],
-                startPoint: .top,
-                endPoint: .bottom
-            )
-
-            RadialGradient(
-                colors: [
-                    Color.appPrimary.opacity(0.22),
-                    Color.appAccent.opacity(0.08),
-                    .clear
-                ],
-                center: UnitPoint(x: 0.5, y: 0.28),
-                startRadius: 12,
-                endRadius: 340
-            )
-
-            Ellipse()
-                .fill(Color.appPrimary.opacity(0.14))
-                .frame(width: 280, height: 180)
-                .blur(radius: 70)
-                .offset(x: drift ? 28 : -22, y: drift ? -150 : -110)
-
-            Ellipse()
-                .fill(Color.appSurface.opacity(0.55))
-                .frame(width: 260, height: 220)
-                .blur(radius: 64)
-                .offset(x: drift ? -40 : 36, y: drift ? 220 : 180)
-
-            ForEach(0..<7, id: \.self) { index in
-                RoundedRectangle(cornerRadius: 6, style: .continuous)
-                    .stroke(Color.appAccent.opacity(0.12 + Double(index % 3) * 0.05), lineWidth: 1)
-                    .frame(width: CGFloat(54 + index * 8), height: CGFloat(36 + index * 4))
-                    .rotationEffect(.degrees(Double(index) * 11 - 18))
-                    .offset(
-                        x: cardX(index) + (drift ? 6 : -6),
-                        y: cardY(index) + (drift ? -8 : 8)
+        Color.appBackground
+            .overlay {
+                Image("BgLibrary")
+                    .resizable()
+                    .scaledToFill()
+                    .opacity(0.28)
+                    .allowsHitTesting(false)
+            }
+            .overlay {
+                ZStack {
+                    LinearGradient(
+                        colors: [
+                            Color.appBackground.opacity(0.55),
+                            Color.appSurface.opacity(0.35),
+                            Color.appBackground.opacity(0.75)
+                        ],
+                        startPoint: .top,
+                        endPoint: .bottom
                     )
-                    .blur(radius: index % 2 == 0 ? 0.2 : 0.8)
+
+                    RadialGradient(
+                        colors: [
+                            Color.appPrimary.opacity(0.22),
+                            Color.appAccent.opacity(0.08),
+                            .clear
+                        ],
+                        center: UnitPoint(x: 0.5, y: 0.28),
+                        startRadius: 12,
+                        endRadius: 340
+                    )
+
+                    Ellipse()
+                        .fill(Color.appPrimary.opacity(0.14))
+                        .frame(width: 280, height: 180)
+                        .blur(radius: 70)
+                        .offset(x: drift ? 28 : -22, y: drift ? -150 : -110)
+
+                    Ellipse()
+                        .fill(Color.appSurface.opacity(0.55))
+                        .frame(width: 260, height: 220)
+                        .blur(radius: 64)
+                        .offset(x: drift ? -40 : 36, y: drift ? 220 : 180)
+
+                    ForEach(0..<7, id: \.self) { index in
+                        RoundedRectangle(cornerRadius: 6, style: .continuous)
+                            .stroke(Color.appAccent.opacity(0.12 + Double(index % 3) * 0.05), lineWidth: 1)
+                            .frame(width: CGFloat(54 + index * 8), height: CGFloat(36 + index * 4))
+                            .rotationEffect(.degrees(Double(index) * 11 - 18))
+                            .offset(
+                                x: cardX(index) + (drift ? 6 : -6),
+                                y: cardY(index) + (drift ? -8 : 8)
+                            )
+                            .blur(radius: index % 2 == 0 ? 0.2 : 0.8)
+                    }
+                }
             }
-        }
-        .ignoresSafeArea()
-        .allowsHitTesting(false)
-        .onAppear {
-            withAnimation(.easeInOut(duration: 5.2).repeatForever(autoreverses: true)) {
-                drift = true
+            .clipped()
+            .ignoresSafeArea()
+            .allowsHitTesting(false)
+            .onAppear {
+                withAnimation(.easeInOut(duration: 5.2).repeatForever(autoreverses: true)) {
+                    drift = true
+                }
             }
-        }
     }
 
     private func cardX(_ index: Int) -> CGFloat {
@@ -193,20 +196,27 @@ struct LoadingHeroPlate: View {
                 }
                 .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
             }
-            .frame(width: 280, height: 260)
+            .frame(maxWidth: 280)
+            .frame(height: 240)
+            .frame(maxWidth: .infinity)
 
             VStack(spacing: 8) {
                 Text("READING DESK")
                     .font(.system(size: 28, weight: .semibold, design: .rounded))
                     .tracking(2.4)
                     .foregroundStyle(Color.appPrimary)
+                    .minimumScaleFactor(0.8)
+                    .lineLimit(1)
 
                 Text("Volumes, passages, and a quiet atlas.")
                     .font(.system(size: 15, weight: .regular, design: .rounded))
                     .foregroundStyle(Color.appPrimary.opacity(0.72))
                     .multilineTextAlignment(.center)
+                    .fixedSize(horizontal: false, vertical: true)
             }
+            .frame(maxWidth: .infinity)
         }
+        .frame(maxWidth: .infinity)
         .onAppear {
             withAnimation(.easeInOut(duration: 1.8).repeatForever(autoreverses: true)) {
                 glow = true
@@ -297,18 +307,22 @@ struct LoadingView: View {
 
                 VStack(spacing: 14) {
                     LoadingProgressBar()
-                        .frame(width: 168)
+                        .frame(maxWidth: 168)
                         .opacity(appeared ? 1 : 0)
 
                     LoadingStatusLine()
                         .opacity(appeared ? 1 : 0)
                 }
                 .padding(.top, 28)
+                .frame(maxWidth: .infinity)
 
                 Spacer(minLength: 0)
             }
-            .padding(.horizontal, 28)
+            .padding(.horizontal, 24)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .ignoresSafeArea()
         .preferredColorScheme(.dark)
         .onAppear {
             withAnimation(.spring(response: 0.72, dampingFraction: 0.82)) {

@@ -5,26 +5,7 @@ struct NoInternetView: View {
 
     var body: some View {
         ZStack {
-            Color.appBackground
-                .ignoresSafeArea()
-
-            Image("BgLibrary")
-                .resizable()
-                .scaledToFill()
-                .opacity(0.22)
-                .ignoresSafeArea()
-                .allowsHitTesting(false)
-
-            LinearGradient(
-                colors: [
-                    Color.appBackground.opacity(0.7),
-                    Color.appSurface.opacity(0.45),
-                    Color.appBackground.opacity(0.85)
-                ],
-                startPoint: .top,
-                endPoint: .bottom
-            )
-            .ignoresSafeArea()
+            deskBackground
 
             VStack(spacing: 18) {
                 Spacer(minLength: 0)
@@ -53,11 +34,13 @@ struct NoInternetView: View {
                     .font(.system(size: 22, weight: .semibold, design: .rounded))
                     .foregroundColor(.appPrimary)
                     .multilineTextAlignment(.center)
+                    .fixedSize(horizontal: false, vertical: true)
 
                 Text("Please check your connection and try again.")
                     .font(.system(size: 15, weight: .regular, design: .rounded))
                     .foregroundColor(.appPrimary.opacity(0.72))
                     .multilineTextAlignment(.center)
+                    .fixedSize(horizontal: false, vertical: true)
                     .padding(.horizontal, 12)
 
                 Spacer(minLength: 0)
@@ -73,11 +56,35 @@ struct NoInternetView: View {
                 }
                 .buttonStyle(.plain)
                 .padding(.horizontal, 24)
-                .padding(.bottom, 28)
             }
-            .padding(.top, 24)
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .ignoresSafeArea()
         .preferredColorScheme(.dark)
+    }
+
+    private var deskBackground: some View {
+        Color.appBackground
+            .overlay {
+                Image("BgLibrary")
+                    .resizable()
+                    .scaledToFill()
+                    .opacity(0.22)
+                    .allowsHitTesting(false)
+            }
+            .overlay {
+                LinearGradient(
+                    colors: [
+                        Color.appBackground.opacity(0.7),
+                        Color.appSurface.opacity(0.45),
+                        Color.appBackground.opacity(0.85)
+                    ],
+                    startPoint: .top,
+                    endPoint: .bottom
+                )
+            }
+            .clipped()
+            .ignoresSafeArea()
     }
 }
 
