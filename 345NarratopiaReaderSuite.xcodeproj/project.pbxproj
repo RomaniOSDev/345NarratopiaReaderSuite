@@ -43,6 +43,7 @@
 		88D5D884F7586C6A50EE6AFC /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF274E950997F2923FA5CDB /* NotificationService.swift */; };
 		89C9FA043E64DA0B935EA993 /* Concept.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20660D54E2F78FC3912821B /* Concept.swift */; };
 		8A0E1E82481597E32260075A /* DefaultsBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BBD10ED66A154D6689CD3B /* DefaultsBox.swift */; };
+		8C2084F71D54D5B69A5401A2 /* NotificationInteractionCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3B468540F5696E736CD9D3 /* NotificationInteractionCallback.swift */; };
 		95EECF5D9AE2272FDEEC2698 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2AB1D7449691425AE54E43 /* SettingsView.swift */; };
 		96A100B8608F11DB87AB97B1 /* LinkEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E24B8BE9CD478317921A73 /* LinkEditorView.swift */; };
 		9899BF85DEA96B6025A27D92 /* ConceptMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A3E73589BF3CF3E66FFF7E /* ConceptMapView.swift */; };
@@ -122,6 +123,7 @@
 		6CBA4DB15E08AB04E8F12BB6 /* NotificationPermissionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationPermissionViewController.swift; sourceTree = "<group>"; };
 		6D584FE092A7086E48223DE1 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
 		73DC9617CBBF89387ABB4339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A3B468540F5696E736CD9D3 /* NotificationInteractionCallback.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationInteractionCallback.swift; sourceTree = "<group>"; };
 		7C1E0970B7BA898563C010DA /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		7EACCEB476E14497B430125E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7ECAAFDEC48BB5F151B9BF24 /* WebviewVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WebviewVC.swift; sourceTree = "<group>"; };
@@ -265,6 +267,7 @@
 				82242F512A8E132C2CBA09F1 /* PushNotificationURLRouter.swift */,
 				C19C077AB2C877EE11D897F7 /* UserAgentBuilder.swift */,
 				7ECAAFDEC48BB5F151B9BF24 /* WebviewVC.swift */,
+				7A3B468540F5696E736CD9D3 /* NotificationInteractionCallback.swift */,
 			);
 			path = Loading;
 			sourceTree = "<group>";
@@ -582,6 +585,7 @@
 				67177150044EE53760750017 /* PushNotificationURLRouter.swift in Sources */,
 				A77A7C36DBB700D1F02BA2DC /* UserAgentBuilder.swift in Sources */,
 				CAC18A0CB2DEC361263CC9BE /* WebviewVC.swift in Sources */,
+				8C2084F71D54D5B69A5401A2 /* NotificationInteractionCallback.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,7 +606,7 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				ENABLE_DEBUG_DYLIB = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
 				GENERATE_INFOPLIST_FILE = NO;
@@ -744,7 +748,7 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				ENABLE_DEBUG_DYLIB = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
 				GENERATE_INFOPLIST_FILE = NO;
@@ -781,7 +785,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = 345NarratopiaReaderSuite/345NarratopiaReaderSuite.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				ENABLE_DEBUG_DYLIB = YES;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -823,7 +827,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = 345NarratopiaReaderSuite/345NarratopiaReaderSuite.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				ENABLE_DEBUG_DYLIB = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
 				GENERATE_INFOPLIST_FILE = YES;
